@@ -16,7 +16,7 @@ function SearchFormReset() {
 
     return (
         <button type="reset" onClick={resetFunction}>
-            <Link href='/public' className="search-btn text-white">
+            <Link href="/" className="search-btn text-white">
                 <X />
             </Link>
         </button>
